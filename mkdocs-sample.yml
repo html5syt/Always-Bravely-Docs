@@ -16,7 +16,7 @@ edit_uri: "https://github.com/html5syt/Always-Bravely-Docs/edit/main/docs_sample
 docs_dir: "docs_sample"
 theme:
   name: "material"
-  language: "cn"
+  language: "zh"
   shortcuts:
     help: 191 # ?
     next: 78 # n
@@ -49,7 +49,7 @@ plugins:
   - search:
       separator: '[\s\-\.]+'
       lang:
-        - cn
+        - en
 
 # Customization
 extra_javascript:
