@@ -1,4 +1,5 @@
 <h1 align="center">
+  
 <img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/main/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
 <br>MkDocs Material<br>Boilerplate - Starter Kit
 </h1>
