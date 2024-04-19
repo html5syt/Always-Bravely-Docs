@@ -1,22 +1,22 @@
 # Project information
-site_name: "MkDocs Material Boilerplate"
-site_description: "MkDocs Material Boilerplate (Starter Kit) - Deploy documentation to hosting platforms (Netlify, GitHub Pages, GitLab Pages, and AWS Amplify Console) with Docker, pipenv, and GitHub Actions."
-site_author: "peaceiris"
-site_url: "https://mkdocs.peaceiris.com/"
+site_name: "Always Bravely Docs"
+site_description: "Always Bravely! | 文档"
+site_author: "Always Bravely Community Team"
+site_url: "https://docs.bravely.pp.ua/"
 
 # Copyright
-copyright: "&copy; 2021 peaceiris"
+copyright: "&copy; 2024-Now Always Bravely Community Team"
 
 # Repository
 repo_name: "GitHub"
-repo_url: "https://github.com/peaceiris/mkdocs-material-boilerplate"
-edit_uri: "https://github.com/peaceiris/mkdocs-material-boilerplate/edit/main/docs_sample"
+repo_url: "https://github.com/html5syt/Always-Bravely-Docs"
+edit_uri: "https://github.com/html5syt/Always-Bravely-Docs/edit/main/docs_sample"
 
 # Configuration
 docs_dir: "docs_sample"
 theme:
   name: "material"
-  language: "en"
+  language: "cn"
   shortcuts:
     help: 191 # ?
     next: 78 # n
@@ -49,7 +49,7 @@ plugins:
   - search:
       separator: '[\s\-\.]+'
       lang:
-        - en
+        - cn
 
 # Customization
 extra_javascript:
@@ -60,10 +60,10 @@ extra:
   manifest: "manifest.json"
   social:
     - icon: "fontawesome/brands/github-alt"
-      link: "https://github.com/peaceiris"
-    - icon: "fontawesome/brands/twitter"
-      link: "https://twitter.com/piris314en"
-
+      link: "https://github.com/html5syt"
+exclude_docs: |
+  static/
+  
 # Page tree
 nav:
   - "Home": "index.md"
