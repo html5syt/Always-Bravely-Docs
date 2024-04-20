@@ -16,15 +16,18 @@ edit_uri: "https://github.com/html5syt/Always-Bravely-Docs/edit/main/docs"
 docs_dir: "docs"
 theme:
   name: "material"
+  custom_dir: "custom"
   language: "zh"
+  font:
+    text: "Noto Serif Simplified Chinese"
   shortcuts:
     help: 191 # ?
     next: 78 # n
     previous: 80 # p
     search: 83 # s
   palette:
-    primary: "blue"
-    accent: "blue"
+    primary: "light blue"
+    accent: "light blue"
   features:
     - tabs
     - content.code.annotate
@@ -46,49 +49,46 @@ theme:
 
 # Extensions
 markdown_extensions:
+
+  # Python Markdown
+  - abbr
   - admonition
-  - codehilite
+  - attr_list
+  - def_list
   - footnotes
-  - mdx_math:
-      enable_dollar_delimiter: true
+  - md_in_html
   - toc:
       permalink: true
-      separator: "_"
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde  
-  - attr_list
-  - md_in_html
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-  - tables
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - md_in_html
-  - pymdownx.betterem
-  - pymdownx.keys
-  - pymdownx.smartsymbols
+  - pymdownx.tilde
+
 plugins:
   - search:
       separator: '[\s\-\.]+'
       lang:
         - en
+  - social:
+    cards_layout: default/variant
 # Customization
 extra_javascript:
   - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
@@ -99,27 +99,25 @@ extra:
   social:
     - icon: "fontawesome/brands/github-alt"
       link: "https://github.com/html5syt"
-exclude_docs: |
-  static/
   
 # Page tree!!!目录
 nav:
-  - "全站使用说明-测试": "index.md"
-  - "Material for MkDocs": "material-for-mkdocs.md"
-  - "Getting started":
-      - "Download boilerplate": "getting-started/download-boilerplate.md"
-      - "pipenv": "getting-started/pipenv.md"
-      - "invoke": "getting-started/invoke.md"
-      - "Docker": "getting-started/docker.md"
-      - "pip": "getting-started/pip.md"
-  - "Hosting and Deployment":
-      - "Combinations": "hosting-and-deployment/combinations.md"
-      - "Netlify": "hosting-and-deployment/netlify.md"
-      - "GitHub Pages": "hosting-and-deployment/github-pages.md"
-      - "GitLab Pages": "hosting-and-deployment/gitlab-pages.md"
-      - "AWS Amplify Console": "hosting-and-deployment/aws-amplify-console.md"
-  - "Extensions":
-      - "MathJax": "extensions/mathjax.md"
-      - "Code Hilite": "extensions/code-hilite.md"
-      - "Footnote": "extensions/footnote.md"
-  - "License": "license.md"
+  - "开始→": "index.md"
+  - "1. 关于社区": "about.md"
+  - "2. 基本功能":
+      - "basic/basic.md"
+      - "2.1 注册&登录": "basic/2.1.注册登录.md"
+      - "2.2 主界面": "basic/2.2.主界面.md"
+      - "2.3 发帖页": "basic/2.3.发帖页.md"
+      - "2.4 帖子页": "basic/2.4.帖子页.md"
+      - "2.5 小黑屋": "basic/2.5.小黑屋.md"
+      - "2.6 个人设置": "basic/2.6.个人设置.md"
+  - "3. 高级功能":
+      - "advanced/advanced.md"
+      - "3.1 私密主题": "advanced/3.1.私密主题.md"
+      - "3.2 文件&照片上传": "advanced/3.2.文件照片上传.md"
+      - "3.3 将社区安装为应用（PWA）": "advanced/3.3.pwa.md"
+  - "4. 实用工具&技术信息":
+      - "4.1 DNS解析流程图（暂未完成）": "information/4.1.dns解析流程图（暂未完成）.md"
+      - "4.2 从微信里转存自定义表情包": "information/4.2.转存表情包.md"
+  - "最后←": "end.md"
