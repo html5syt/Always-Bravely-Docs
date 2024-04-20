@@ -90,9 +90,9 @@ extra:
 exclude_docs: |
   static/
   
-# Page tree
+# Page tree!!!目录
 nav:
-  - "Home": "index.md"
+  - "全站使用说明-测试": "index.md"
   - "Material for MkDocs": "material-for-mkdocs.md"
   - "Getting started":
       - "Download boilerplate": "getting-started/download-boilerplate.md"
