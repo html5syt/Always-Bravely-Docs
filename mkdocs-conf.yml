@@ -41,7 +41,7 @@ theme:
   # text: 'Ubuntu'
   # code: 'Ubuntu Mono'
   # icon:
-  logo: 'assts/icon.png'
+  logo: 'assets/icon.png'
   favicon: 'assets/icon.png'
 
 # Extensions
