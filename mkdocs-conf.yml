@@ -16,7 +16,7 @@ edit_uri: "https://github.com/html5syt/Always-Bravely-Docs/edit/main/docs"
 docs_dir: "docs"
 theme:
   name: "material"
-  # custom_dir: "custom"
+  custom_dir: "custom"
   language: "zh"
   font:
     text: "Noto Serif Simplified Chinese"
