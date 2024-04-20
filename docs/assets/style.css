@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'IconFont';
-    src: url('https://docs.bravely.pp.ua/assets/Font/fa-light-300.eot'); /* IE9 Compat Modes */
-    src: url('https://docs.bravely.pp.ua/assets/Font/fa-light-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('https://docs.bravely.pp.ua/assets/Font/fa-light-300.woff2') format('woff2'), /* Super Modern Browsers */ url('https://docs.bravely.pp.ua/assets/Font/fa-light-300.woff') format('woff'), /* Pretty Modern Browsers */ url('https://docs.bravely.pp.ua/assets/Font/fa-light-300.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('https://docs.bravely.pp.ua/assets/fa-light-300.eot'); /* IE9 Compat Modes */
+    src: url('https://docs.bravely.pp.ua/assets/fa-light-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('https://docs.bravely.pp.ua/assets/fa-light-300.woff2') format('woff2'), /* Super Modern Browsers */ url('https://docs.bravely.pp.ua/assets/fa-light-300.woff') format('woff'), /* Pretty Modern Browsers */ url('https://docs.bravely.pp.ua/assets/fa-light-300.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 * {

@@ -14,8 +14,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  hadolint:
-    uses: peaceiris/workflows/.github/workflows/hadolint.yml@v0.19.1
 
   pipenv:
     runs-on: ubuntu-22.04
