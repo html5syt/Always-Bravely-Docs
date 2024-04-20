@@ -118,9 +118,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "docs_sample/index.md"
-          }
+          "state": {}
         }
       },
       {
@@ -148,8 +146,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99f1268c8e8bdb2f",
+  "active": "845fe3642ac2a575",
   "lastOpenFiles": [
+    "docs_sample/index.md",
     "docs/assets/css/custom.css",
     "docs/images/material.png",
     "docs/images/graduate-cap.96x96.png",
@@ -181,8 +180,6 @@
     "docs/extensions",
     "docs/assets",
     "docs",
-    "mkdocs-conf.yml",
-    "docs_sample/index.md",
     "README.md",
     "docs_sample/images/material.png",
     "docs_sample/images/graduate-cap.96x96.png",
