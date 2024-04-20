@@ -41,8 +41,8 @@ theme:
   # text: 'Ubuntu'
   # code: 'Ubuntu Mono'
   # icon:
-  logo: 'assts/logo.png'
-  favicon: 'assets/logo.png'
+  logo: 'assts/icon.png'
+  favicon: 'assets/icon.png'
 
 # Extensions
 markdown_extensions:
