@@ -164,6 +164,7 @@
   },
   "active": "c8a57186287d9fe2",
   "lastOpenFiles": [
+    "mkdocs-conf.yml",
     "15135340.tmp",
     "docs_sample/index.md",
     "tasks.py",
@@ -176,7 +177,6 @@
     "docker-compose.yml",
     "amplify.yml",
     "README.md",
-    "Pipfile.lock",
     "docs_sample/images/material.png",
     "docs_sample/images/graduate-cap.96x96.png",
     "docs_sample/images/graduate-cap.png",
