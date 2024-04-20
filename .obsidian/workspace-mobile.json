@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "b9ad4c4906ddafdf",
+    "type": "split",
+    "children": [
+      {
+        "id": "10b3a04021fe5d59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d736bd30e87b8f5b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "845fe3642ac2a575",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "empty",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "c8a57186287d9fe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs_sample/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44c03858c5a96fb3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "69e10ba472f2700d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byCreatedTimeReverse"
+          }
+        }
+      },
+      {
+        "id": "27ae966989d26b7d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "ddf39bcb93cc477b",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "da7c34c1f32a8ab1",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "eff6dfd495650315",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a629c3643afddbb8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "docs_sample/index.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "byCreatedTimeReverse",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b474e91a8f808ee9",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "docs_sample/index.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "fa558eb0b7e5776f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "docs_sample/index.md"
+          }
+        }
+      },
+      {
+        "id": "99f1268c8e8bdb2f",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:打开命令面板": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": true,
+      "daily-notes:打开/创建今天的日记": false,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "c8a57186287d9fe2",
+  "lastOpenFiles": [
+    "15135340.tmp",
+    "docs_sample/index.md",
+    "tasks.py",
+    "runtime.txt",
+    "requirements.txt",
+    "requirements-dev.txt",
+    "renovate.json",
+    "netlify.toml",
+    "mkdocs-sample.yml",
+    "docker-compose.yml",
+    "amplify.yml",
+    "README.md",
+    "Pipfile.lock",
+    "docs_sample/images/material.png",
+    "docs_sample/images/graduate-cap.96x96.png",
+    "docs_sample/images/graduate-cap.png",
+    "docs_sample/images/graduate-cap.48x48.png",
+    "docs_sample/images/graduate-cap.192x192.png",
+    "docs_sample/hosting-and-deployment/netlify.md",
+    "docs_sample/hosting-and-deployment/gitlab-pages.md",
+    "docs_sample/hosting-and-deployment/combinations.md",
+    "docs_sample/hosting-and-deployment/github-pages.md",
+    "docs_sample/hosting-and-deployment/aws-amplify-console.md",
+    "docs_sample/getting-started/pipenv.md",
+    "docs_sample/getting-started/pip.md",
+    "docs_sample/getting-started/invoke.md",
+    "docs_sample/getting-started/download-boilerplate.md",
+    "docs_sample/getting-started/docker.md",
+    "docs_sample/extensions/mathjax.md",
+    "docs_sample/extensions/footnote.md",
+    "docs_sample/extensions/code-hilite.md",
+    "docs_sample/material-for-mkdocs.md",
+    "docs_sample/license.md",
+    "get-role/fvjCu3tsDdJLUcJ2.md",
+    "全站使用说明.md",
+    "社区准则.md",
+    "讲述-圆珠笔背后的故事.md",
+    "① -有趣的题目.md",
+    "自我介绍.md",
+    "尺规作正八边形.md",
+    "手机上的GeoGebra桌面版.md",
+    "尺规作正八边形/zbbx5.jpg",
+    "尺规作正八边形/zbbx4.jpg",
+    "尺规作正八边形/zbbx3.jpg",
+    "尺规作正八边形/zbbx2.jpg",
+    "尺规作正八边形/zbbx1.jpg"
+  ]
+}
