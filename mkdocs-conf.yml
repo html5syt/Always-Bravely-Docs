@@ -26,8 +26,8 @@ theme:
     previous: 80 # p
     search: 83 # s
   palette:
-    primary: "light blue"
-    accent: "light blue"
+    - primary: "light blue"
+    - accent: "light blue"
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
