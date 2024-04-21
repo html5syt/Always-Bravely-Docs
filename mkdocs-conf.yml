@@ -28,7 +28,6 @@ theme:
   palette:
     primary: "light blue"
     accent: "light blue"
-    theme:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
