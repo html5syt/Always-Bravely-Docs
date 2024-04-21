@@ -37,7 +37,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.path
-    - navigation.indexes
+    # - navigation.indexes
     - toc.follow
     - navigation.top
   # font:
@@ -79,15 +79,22 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+
 plugins:
   - search:
       separator: '[\s\-\.]+'
       lang:
         - en
-
+  - social:
+      cards_layout: default/variant
+      cards_layout_options:
+        background_color: "#02A6F2" 
+      
+      
 # Customization
 extra_javascript:
-  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
+  # - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"
+  - "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js"
 extra_css:
   - "assets/css/custom.css"
 
@@ -95,7 +102,7 @@ extra_css:
 # Page tree!!!目录
 nav:
   - "开始→": "index.md"
-  - "1. 关于社区": "about.md"
+  - "1. 关于社区": "about/about.md"
   - "2. 基本功能":
       - "basic/basic.md"
       - "2.1 注册&登录": "basic/2.1.注册&登录.md"

@@ -1,16 +1,6 @@
 name: CI-Run Deploy→
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "**.md"
-  pull_request:
-    paths-ignore:
-      - "**.md"
-  release:
-    types: [published]
   workflow_dispatch:
 
 jobs:

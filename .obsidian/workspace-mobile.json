@@ -146,8 +146,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99f1268c8e8bdb2f",
+  "active": "845fe3642ac2a575",
   "lastOpenFiles": [
+    "docs/about.md",
     "10856822.tmp",
     "docs/assets/fa-light-300.woff2",
     "docs/assets/fa-light-300.woff",
@@ -165,7 +166,6 @@
     "docs/advanced/3.2.文件照片上传.md",
     "docs/advanced/3.1.私密主题.md",
     "docs/advanced/advanced.md",
-    "docs/advanced",
     "docs/basic/basic.md",
     "docs/basic/2.6.个人设置.md",
     "docs/basic/2.5.小黑屋.md",

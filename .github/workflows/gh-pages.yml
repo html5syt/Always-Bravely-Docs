@@ -1,11 +1,8 @@
 name: github pages
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-
+  workflow_dispatch:
+  
 jobs:
   deploy:
     runs-on: ubuntu-22.04
