@@ -18,8 +18,8 @@ theme:
   name: "material"
   custom_dir: "custom"
   language: "zh"
-  font:
-    text: "Noto Serif Simplified Chinese"
+  # font:
+    # text: "Noto Serif Simplified Chinese"
   shortcuts:
     help: 191 # ?
     next: 78 # n
@@ -87,8 +87,6 @@ plugins:
         - en
   - social:
       cards_layout: default/variant
-      cards_layout_options:
-        background_color: "#02A6F2" 
       
       
 # Customization
