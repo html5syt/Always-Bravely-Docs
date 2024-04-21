@@ -1,4 +1,4 @@
-<div style="text-align:center;"> <h1><b>全站使用说明</b></h1></div>
+<div style="text-align:center;"> <h1><b>全站使用说明（未迁移完成）</b></h1></div>
 
 ---
 ## 欢迎各位成员！
