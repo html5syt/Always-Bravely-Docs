@@ -328,4 +328,4 @@ extra_css:
 watch:
   - docs
   - mkdocs.yml
-  - docs/overrides/partials
+  - docs/custom/partials
