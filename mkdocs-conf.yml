@@ -28,25 +28,27 @@ theme:
   palette:
     - primary: "light blue"
     - accent: "light blue"
-    # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-auto
-        name: 暗色
-
-    # Palette toggle for light mode
+        icon: material/link
+        name: 关闭自动模式
+    #primary: blue grey
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default # 日间模式
+      primary: blue grey # 上方的
+      accent: blue # 链接等可交互元件的高亮色
+      # teal 
       toggle:
-        icon: material/brightness-7
-        name: 亮色
-
-    # Palette toggle for dark mode
+        icon: material/toggle-switch # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: slate # 夜间模式
+      primary: black 
+      accent: indigo
+      # teal
       toggle:
-        icon: material/brightness-4
-        name: 跟随系统
+        icon: material/toggle-switch-off-outline
+        name: 切换至日间模式
   features:
     - tabs
     - content.code.annotate
