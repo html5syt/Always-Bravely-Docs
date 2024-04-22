@@ -1,28 +1,40 @@
-name: CI-Run Deploy→
-
+name: ci 
 on:
-  workflow_dispatch:
-
+  push:
+    branches:
+      - master 
+      - main
+permissions:
+  contents: write
 jobs:
-
-  pipenv:
-    runs-on: ubuntu-22.04
+  deploy:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
-
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v3
         with:
-          path: ~/.cache/pipenv
-          key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
+          key: mkdocs-material-${ env.cache_id }
+          path: .cache
           restore-keys: |
-            ${{ runner.os }}-pipenv-
+            mkdocs-material-
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-git-authors-plugin
+      - run: pip install mkdocs-git-committers-plugin-2
+      - run: pip install markdown-callouts
+      # - run: pip install mkdocs-glightbox
+      # - run: pip install mkdocs-minify-plugin
+      # - run: pip install mkdocs-rss-plugin
+      # - run: pip install jieba
+      # - run: pip install "mkdocs-material[imaging]"
+      # - run: pip install mkdocs-statistics-plugin 
+      # - run: pip install mkdocs-rss-plugin           
+      - run: pip install mkdocs-material 
+      - run: pip install --upgrade --force-reinstall mkdocs-material
+      - run: mkdocs gh-deploy --force
 
-      - run: python3 -m pip install --upgrade pip pipenv
-      - run: pipenv sync --dev
-      - run: pipenv run mkdocs build --config-file ./mkdocs-conf.yml
-
-  
