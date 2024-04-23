@@ -22,44 +22,12 @@ comments: false
 ---
 # 主页
 
-<!-- <center><font  color= #518FC1 size=6>“循此苦旅，以达星辰”</font></center> -->
-<center><font  color= #518FC1 size=6 class="ml3">“循此苦旅 以达星辰”</font></center>
+<center><font  color= #02A6F2 size=6 class="ml3">欢迎各位成员！</font></center>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 
-<!-- <center>
-<font  color= #608DBD size=3>
-<span id="jinrishici-sentence">正在加载今日诗词....</span>
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-</font>
-</center> -->
 
-<!-- <center>
-<font  color= #608DBD size=3>
-<span id="hitokoto-sentence">正在加载一言....</span>
-<script src="https://v1.hitokoto.cn"></script>
-</font>
-</center> -->
-
-<!-- <center>
-<font  color= #608DBD size=3>
-<p id="hitokoto">
-  <a href="#" id="hitokoto_text" target="_blank"></a>
-</p>
-<script>
-  fetch('https://v1.hitokoto.cn')
-    .then(response => response.json())
-    .then(data => {
-      const hitokoto = document.querySelector('#hitokoto_text')
-      hitokoto.href = `https://hitokoto.cn/?uuid=${data.uuid}`
-      hitokoto.innerText = data.hitokoto
-    })
-    .catch(console.error)
-</script>
-</font>
-</center> -->
-
-
+<!-- ！时间 -->
 <div id="rcorners2" >
   <div id="rcorners1">
     <!-- <i class="fa fa-calendar" style="font-size:100"></i> -->
@@ -125,166 +93,16 @@ comments: false
       </font>
     </body>
   </div>
-  <ul>
-    <li>通过主题和目录以打开文章</li>
-    <ul>
-      <li>Mac/PC端 请在上方标签栏选择主题 在左侧目录选择文章</li>
-      <li>移动端 请点击左上角图标选择主题和文章</li>
-    </ul>
-    <li>搜索关键词以打开文章</li>
-    <li>
-      如遇到网页卡顿/打开文章后无法显示图片的情况，请使用<strong>科学上网</strong>以打破信息壁垒
-    </li>
-  </ul>
+  开发中，站点变动较大，请谅解！
 </div> 
-快速谈话(1) 联系我(2)
-{ .annotate }
 
-1. 点击右下角与我在线交谈.
-2. 18939533255
-***  
-
-<!-- <strong>推荐文章:material-book:</strong>
-
-  - [如何注册ChatGPT](develop/ChatGPT.md)
-  - [将Python文件.py打包成.exe可执行程序](blog/py/python.md)
-  - [Blogger](blog/index.md) 
-  - [利用Mkdocs部署静态网页至GitHub pages](blog/Mkdocs/mkdocs1.md)
-  - [如何给MKdocs添加友链](blog/Mkdocs/linktech.md)
-  - [Homebrew国内如何自动安装(国内地址)(Mac & Linux)](blog/Mac/homebrew.md)
-  - [好用/好玩网站分享](blog/Webplay.md)
-  - [Mac/windows软件网站汇总](blog/macsoft.md)
-  - [重庆旅游推荐路线](trip/InCQ/CQ.md)
-  - [留言板](waline.md) -->
-
-<div class="grid cards" markdown>
-
--   :material-clock-fast:{ .lg .middle } __推荐的文章__
-
-    ---
-
-    - [如何注册ChatGPT](develop/ChatGPT.md)
-    - [将Python文件打包成.exe可执行程序](blog/py/python.md)
-    - [Homebrew国内如何自动安装(国内地址)(Mac & Linux)](blog/Mac/homebrew.md) 
-    
-
--   :simple-materialformkdocs:{ .lg .middle } __Mkdocs教程__
-
-    ---
-
-    - [利用Mkdocs部署静态网页至GitHub pages](blog/Mkdocs/mkdocs1.md)
-    - [Mkdocs配置说明(mkdocs.yml)](blog/Mkdocs/mkdocs2.md)   
-    - [如何给MKdocs添加友链](blog/Mkdocs/linktech.md)
-
-    
-
--   :material-format-font:{ .lg .middle } __好玩__
-
-    ---
-
-    
-    - [好用/好玩网站分享](blog/Webplay.md)
-    - [Mac/windows软件网站汇总](blog/macsoft.md)
-    - [重庆旅游推荐路线](trip/InCQ/CQ.md)
-    
-
-    
-
--   :simple-aboutdotme:{ .lg .middle } __关于__
-
-    ---
-
-    - [留言板](waline.md)
-    - [Blogger](blog/index.md)   
-    [:octicons-arrow-right-24: 了解我](about/geren.md)
-
-</div>
-
-
-
-[^Knowing-that-loving-you-has-no-ending]:太阳总是能温暖向日葵  
-[^see-how-much-I-love-you]:All problems in computer science can be solved by another level of indirection
-
-
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-29HZMNR0KG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-29HZMNR0KG');
-</script>
-
-
-<!-- Start of Howxm client code snippet -->
-<script>
-function _howxm(){_howxmQueue.push(arguments)}
-window._howxmQueue=window._howxmQueue||[];
-_howxm('setAppID','14429fca-cac1-4551-a472-b046a96ebb75');
-(function(){var scriptId='howxm_script';
-if(!document.getElementById(scriptId)){
-var e=document.createElement('script'),
-t=document.getElementsByTagName('script')[0];
-e.setAttribute('id',scriptId);
-e.type='text/javascript';e.async=!0;
-e.src='https://static.howxm.com/sdk.js';
-t.parentNode.insertBefore(e,t)}})();
-</script>
-<!-- End of Howxm client code snippet -->
-
-<script src="//code.tidio.co/6jmawe9m5wy4ahvlhub2riyrnujz7xxi.js" async></script>
-</head>
-
-
-<div id="he-plugin-simple"></div>
-<style>
-  @media (max-width: 600px) {
-    #he-plugin-simple {
-        display: none;
-    }
-}
-</style>
-<script>
-WIDGET = {
-  "CONFIG": {
-    "modules": "01234",
-    "background": "1",
-    "tmpColor": "FFFFFF",
-    "tmpSize": "16",
-    "cityColor": "FFFFFF",
-    "citySize": "16",
-    "aqiColor": "FFFFFF",
-    "aqiSize": "16",
-    "weatherIconSize": "24",
-    "alertIconSize": "18",
-    "padding": "10px 10px 10px 10px",
-    "shadow": "0",
-    "language": "auto",
-    "borderRadius": "25",
-    "fixed": "true",
-    "vertical": "center",
-    "horizontal": "center",
-    "left": "10",
-    "bottom": "80",
-    "key": "49cf5b47814f4da680a14b99a67439d5"
-  }
-}
-</script>
-<script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
-
-
-<!-- <head>
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"3HOcxvgwJJmkuGUi",ck:"3HOcxvgwJJmkuGUi"})</script>
-</head> -->
 
 
 
 <body>
     <font color="#B9B9B9">
     <p style="text-align: center; ">
-            <span>本站已经运行</span>
+            <span>（未启用）本站已经运行</span>
             <span id='box1'></span>
 </p>
   <div id="box1"></div>
@@ -309,44 +127,4 @@ WIDGET = {
   </script>
   </font>
 </body>
-
-
-<!-- <head>
-<script defer src="https://analytics.us.umami.is/script.js" data-website-id="dae37494-1db6-408a-afdd-1868e1a7d41a"></script>
-</head> -->
-
-<!-- /***
- *      ┌─┐       ┌─┐
- *   ┌──┘ ┴───────┘ ┴──┐
- *   │                 │
- *   │       ───       │
- *   │   >        <    │
- *   │                 │
- *   │   ...  ⌒  ...   │
- *   │                 │
- *   └───┐         ┌───┘
- *       │         │
- *       │         │
- *       │         │
- *       │         └──────────────┐
- *       │                        │
- *       │                        ├─┐
- *       │                        ┌─┘
- *       │                        │
- *       └─┐  ┐  ┌───────┬──┐  ┌──┘
- *         │ ─┤ ─┤       │ ─┤ ─┤
- *         └──┴──┘       └──┴──┘
- *                神兽保佑
- *               代码无BUG!
- */ -->
-
-<!--  
-____    __    ____  ______   ______   ____    __    ____  __  .__   __. 
-\   \  /  \  /   / /      | /  __  \  \   \  /  \  /   / |  | |  \ |  | 
- \   \/    \/   / |  ,----'|  |  |  |  \   \/    \/   /  |  | |   \|  | 
-  \            /  |  |     |  |  |  |   \            /   |  | |  . `  | 
-   \    /\    /   |  `----.|  `--'  |    \    /\    /    |  | |  |\   | 
-    \__/  \__/     \______| \______/      \__/  \__/     |__| |__| \__| 
-
--->
 

@@ -5,7 +5,7 @@ site_author: "Always Bravely Community Team"
 site_url: "https://docs.bravely.pp.ua/"
 
 # Copyright
-copyright: "&copy; 2024-Now Always Bravely Community Team"
+copyright: "&copy; 2024-Now Always Bravely Community Team. All rights reserved."
 
 # Repository
 repo_name: "GitHub"
@@ -215,16 +215,13 @@ extra:
   generator: true  #删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/weixin
-      link: https://s1.imagehub.cc/images/2024/02/02/bb9ee71b03ee7a3b87caad5cc4bcebff.jpeg
+      link: assets/tim.png
       name: weixin
-    - icon: fontawesome/brands/x-twitter 
-      link: https://twitter.com/wcowin_
-      name: Twitter
     - icon: fontawesome/brands/github
-      link: https://github.com/Wcowin
+      link: https://github.com/html5syt
       name: Github
     - icon: fontawesome/regular/envelope
-      link: mailto:<wangkewen821@gmail.com> #联系方式
+      link: mailto:<bravely@bravely.pp.ua> #联系方式
       name: Email
 
 
@@ -244,10 +241,10 @@ plugins:
 
   - git-committers:
       enabled: !ENV [CI, false]
-      repository: Wcowin/Wcowin.github.io
+      repository: html5syt/Always-Bravely-Docs
       branch: main
-      # exclude:
-        # - index.md 
+      exclude:
+        - index.md 
 
 markdown_extensions:
   - abbr
@@ -309,14 +306,12 @@ extra_javascript:
 
 
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/extra2.css  #诗词版、打赏
-  - stylesheets/link.css  #友链
-  - stylesheets/customize.css  #按钮圆角化
-  - stylesheets/bannerSlider.css
-  # - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra.css # extra.css的CDN
-  # - stylesheets/extra1.css
-  # - stylesheets/video.css
+  - assets/css/extra.css
+  - assets/css/customize.css  #按钮圆角化
+  - assets/css/bannerSlider.css
+  # - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/assets/css/extra.css # extra.css的CDN
+  # - assets/css/extra1.css
+  # - assets/css/video.css
   # - https://unpkg.com/@waline/client@v2/dist/waline.css
   # - https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.css #评论
   # - ckplayer/css/ckplayer.css
