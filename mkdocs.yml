@@ -149,7 +149,7 @@ nav:
 #[UI]
 theme:
   name: material
-  custom_dir: custom
+  custom_dir: docs/custom
   # font:
   #   text: Bitter
   #   code: Roboto Mono
