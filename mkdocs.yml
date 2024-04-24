@@ -5,7 +5,7 @@ site_author: "Always Bravely Community Team"
 site_url: "https://docs.bravely.pp.ua/"
 
 # Copyright
-copyright: &copy; 2024-Now Always Bravely Community Team. All rights reserved.
+copyright: "&copy; 2024-Now Always Bravely Community Team. All rights reserved."
 
 # Repository
 repo_name: "GitHub"
