@@ -22,7 +22,7 @@ comments: false
 ---
 # 主页
 
-<center><font  color= #02A6F2 size=6 class="ml3">“欢迎循此苦旅，以达星辰”</font></center>
+<center><font  color= #02A6F2 size=6 class="ml3">“循此苦旅，以达星辰”</font></center>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 
