@@ -63,6 +63,14 @@
     {% endif %}
   {% endif %}
 
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      {% include "partials/copyright.html" %}
+      <div class="footer-visit-count" style="display: flex; justify-content: center; align-items: center;">
+    本站访问量：<script async src="//finicounter.eu.org/finicounter.js"></script>
+    <span id="finicount_views"></span>
+  </div>
       <style>
         .footer-visit-count {
             height: fit-content;
