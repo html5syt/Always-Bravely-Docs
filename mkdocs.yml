@@ -180,7 +180,7 @@ theme:
         name: 切换至日间模式
   features: 
     - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
-    # - navigation.instant 
+    - navigation.instant 
     #- header.autohide  #自动隐藏
     - navigation.instant.progress
     # - navigation.prune #渲染的 HTML 中仅包含可见的导航项
@@ -212,7 +212,7 @@ theme:
     
 
 extra:
-  generator: true  #删除页脚显示“使用 MkDocs 材料制造”
+  generator: false  #删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/weixin
       link: assets/tim.png

@@ -33,7 +33,7 @@
               "state": {
                 "file": "docs/about/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
