@@ -1,6 +1,6 @@
 {
-  "commitMessage": "Obsidian vault backup: {{date}}",
-  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "commitMessage": "Commit {{date}}",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss:SSS",
   "autoSaveInterval": 0,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "Obsidian vault backup: {{date}}"
+  "autoCommitMessage": "Commit {{date}}"
 }
