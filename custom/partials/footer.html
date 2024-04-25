@@ -67,16 +67,6 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       {% include "partials/copyright.html" %}
-      <div class="footer-visit-count" style="display: flex; justify-content: center; align-items: center;">
-    本站访问量：<script async src="//finicounter.eu.org/finicounter.js"></script>
-    <span id="finicount_views"></span>
-  </div>
-      <style>
-        .footer-visit-count {
-            height: fit-content;
-            min-height: 55px; /* 根据实际情况调整此高度 */
-        }
-        </style>
         
       {% if config.extra.social %}
         {% include "partials/social.html" %}
