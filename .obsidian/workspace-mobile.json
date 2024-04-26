@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/about/index.md",
+                "file": "docs/basic/2.6.个人设置.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,7 +104,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/about/index.md",
+            "file": "docs/basic/2.6.个人设置.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "byCreatedTimeReverse",
@@ -121,7 +121,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/about/index.md",
+            "file": "docs/basic/2.6.个人设置.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -133,7 +133,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/about/index.md"
+            "file": "docs/basic/2.6.个人设置.md"
           }
         }
       },
@@ -164,8 +164,12 @@
   },
   "active": "890b76675b7f2fc3",
   "lastOpenFiles": [
-    "docs/index.md",
+    "docs/basic/2.5.小黑屋.md",
+    "docs/basic/2.4.帖子页.md",
+    "docs/basic/2.3.发帖页.md",
+    "docs/basic/index.md",
     "docs/about/index.md",
+    "docs/index.md",
     "docs/about/about.md",
     "docs/about",
     "docs/about.md",
@@ -187,9 +191,6 @@
     "docs/advanced/advanced.md",
     "docs/basic/basic.md",
     "docs/basic/2.6.个人设置.md",
-    "docs/basic/2.5.小黑屋.md",
-    "docs/basic/2.4.帖子页.md",
-    "docs/basic/2.3.发帖页.md",
     "docs/basic/2.2.主界面.md",
     "docs/basic/2.1.注册&登录.md",
     "docs_sample/index.md",
@@ -204,7 +205,6 @@
     "docs/hosting-and-deployment/github-pages.md",
     "docs/hosting-and-deployment/aws-amplify-console.md",
     "docs/getting-started/pipenv.md",
-    "docs/getting-started/pip.md",
     "docs_sample/images/material.png",
     "docs_sample/images/graduate-cap.96x96.png",
     "docs_sample/images/graduate-cap.png",
