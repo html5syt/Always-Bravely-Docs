@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/basic/2.6.个人设置.md",
+                "file": "docs/basic/index.md",
                 "mode": "source",
                 "source": true
               }
@@ -104,7 +104,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/basic/2.6.个人设置.md",
+            "file": "docs/basic/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "byCreatedTimeReverse",
@@ -121,7 +121,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/basic/2.6.个人设置.md",
+            "file": "docs/basic/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -133,7 +133,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/basic/2.6.个人设置.md"
+            "file": "docs/basic/index.md"
           }
         }
       },
@@ -164,6 +164,7 @@
   },
   "active": "890b76675b7f2fc3",
   "lastOpenFiles": [
+    "docs/basic/2.6.个人设置.md",
     "docs/basic/2.5.小黑屋.md",
     "docs/basic/2.4.帖子页.md",
     "docs/basic/2.3.发帖页.md",
@@ -190,7 +191,6 @@
     "docs/advanced/3.1.私密主题.md",
     "docs/advanced/advanced.md",
     "docs/basic/basic.md",
-    "docs/basic/2.6.个人设置.md",
     "docs/basic/2.2.主界面.md",
     "docs/basic/2.1.注册&登录.md",
     "docs_sample/index.md",
