@@ -108,11 +108,14 @@ theme:
     
 
 extra:
-  generator: false  #删除页脚显示“使用 MkDocs 材料制造”
+  generator: false  #控制页脚显示“使用 MkDocs 材料制造”，true为开启
   social:
     - icon: fontawesome/brands/weixin
-      link: assets/tim.png
+      link: /assets/tim.png
       name: weixin
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/1172199422 #联系方式
+      name: Bilibili
     - icon: fontawesome/brands/github
       link: https://github.com/html5syt
       name: Github
@@ -126,7 +129,7 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - offline
-  # - glightbox
+  - glightbox
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
       type: iso_date
