@@ -23,6 +23,9 @@ nav:
   - "4. 实用工具&技术信息":
       - "4.1 DNS解析流程图（暂未完成）": "information/4.1.dns解析流程图（暂未完成）.md"
       - "4.2 从微信里转存自定义表情包": "information/4.2.转存表情包.md"
+      - "社区运行状态": "https://stats.uptimerobot.com/ZOuWPrYNjt"
+      
+      - "[管理员]Microsoft Clarity 社区统计": "https://clarity.microsoft.com/projects/view/krvl9qsy2g/dashboard"
       
   - "最后←": "end.md"
   
@@ -120,7 +123,7 @@ theme:
     
 
 extra:
-  generator: false  #控制页脚显示“使用 MkDocs 材料制造”，true为开启
+  generator: true  #已更改：修订日期与版本号显示，在custom/partial/copyright处更改。
   social:
     - icon: fontawesome/brands/weixin
       link: /assets/tim.png
@@ -186,6 +189,7 @@ markdown_extensions:
       generic: true
   - toc:
       permalink: true # 固定标题位置为当前位置
+      toc_depth: 6
   - pymdownx.highlight: # 代码块高亮
       anchor_linenums: true
       linenums: true # 显示行号
@@ -203,9 +207,10 @@ markdown_extensions:
 
   
 extra_javascript:
-  - javascripts/extra.js 
-  - javascripts/bannerSlider.js
-  - javascripts/mathjax.js
+  - assets/javascripts/extra.js 
+  - assets/javascripts/bannerSlider.js
+  - assets/javascripts/mathjax.js
+  - assets/javascripts/iconsearch.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
