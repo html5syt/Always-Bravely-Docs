@@ -76,12 +76,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.bravely.pp.ua/information/4.1.dns%E8%A7%A3%E6%9E%90%E6%B5%81%E7%A8%8B%E5%9B%BE%EF%BC%88%E6%9A%82%E6%9C%AA%E5%AE%8C%E6%88%90%EF%BC%89.html</loc>
+         <loc>https://docs.bravely.pp.ua/info/4.1.dns%E8%A7%A3%E6%9E%90%E6%B5%81%E7%A8%8B%E5%9B%BE%EF%BC%88%E6%9A%82%E6%9C%AA%E5%AE%8C%E6%88%90%EF%BC%89.html</loc>
          <lastmod>2024-04-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.bravely.pp.ua/information/4.2.%E8%BD%AC%E5%AD%98%E8%A1%A8%E6%83%85%E5%8C%85.html</loc>
+         <loc>https://docs.bravely.pp.ua/info/4.2.%E8%BD%AC%E5%AD%98%E8%A1%A8%E6%83%85%E5%8C%85.html</loc>
+         <lastmod>2024-04-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.bravely.pp.ua/info/iconsearch.html</loc>
          <lastmod>2024-04-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
