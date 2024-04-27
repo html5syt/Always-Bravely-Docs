@@ -31,8 +31,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/end.md",
-                "mode": "preview",
+                "file": "docs/index.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -104,7 +104,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/end.md",
+            "file": "docs/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "byCreatedTimeReverse",
@@ -121,7 +121,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/end.md",
+            "file": "docs/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -133,7 +133,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/end.md"
+            "file": "docs/index.md"
           }
         }
       },
@@ -170,14 +170,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "be4e41a46c234dce",
+  "active": "890b76675b7f2fc3",
   "lastOpenFiles": [
+    "docs/about/index.md",
+    "docs/index.md",
+    "docs/end.md",
     "docs/info/iconsearch.md",
     "docs/info/4.2.转存表情包.md",
     "docs/info/4.1.dns解析流程图（暂未完成）.md",
     "docs/info",
     "d/88-zhan-dian-wen-ti-fan-kui.md",
-    "docs/end.md",
     "d",
     "docs/assets/javascripts/iconsearch_index.json",
     "docs/assets/javascripts/iconsearch.js",
@@ -189,14 +191,12 @@
     "docs/advanced/index.md",
     "docs/basic/index.md",
     "docs/basic/2.7.第三方登录.md",
-    "docs/about/index.md",
     "docs/basic/2.1.注册&登录.md",
     "docs/basic/2.2.主界面.md",
     "未命名",
     "docs/basic/2.6.个人设置.md",
     "docs/basic/2.5.小黑屋.md",
     "docs/basic/2.4.帖子页.md",
-    "docs/index.md",
     "docs/about/about.md",
     "docs/about",
     "docs/about.md",
