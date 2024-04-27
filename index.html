@@ -24,7 +24,7 @@
     
     
       
-        <title>Always Bravely Docs</title>
+        <title>Home - Always Bravely Docs</title>
       
     
     
@@ -177,7 +177,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              开始→
+              Home
             
           </span>
         </div>
@@ -437,6 +437,8 @@
           
             
               
+                
+              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -483,17 +485,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    开始→
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="index.html" class="md-nav__link md-nav__link--active">
         
@@ -504,50 +497,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      欢迎各位成员！
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-" class="md-nav__link">
-    <span class="md-ellipsis">
-      ---
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      主页
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1147,6 +1096,8 @@
             
             
               
+                
+              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -1156,41 +1107,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      欢迎各位成员！
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#-" class="md-nav__link">
-    <span class="md-ellipsis">
-      ---
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      主页
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1221,133 +1139,31 @@
   
 
 
-<div style="text-align:center;"> <h1><b>全站使用说明（未迁移完成）</b></h1></div>
-
-<hr />
-<h2 id="_1">欢迎各位成员！<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<div style="text-align:center;"> <h1 style="color: red"><b>请认真阅读完以下重点内容！</b></h1></div>
-
-<ol>
-<li><strong>注册规则在2.1节！</strong></li>
-<li><strong>此社区不对所有成年人开放，请勿在校内大幅度宣传！（懂得都懂）</strong></li>
-<li><strong>本文部分图片由于功能变动与社区实际情况有出入，请以实际社区操作为准！</strong></li>
-</ol>
-<h2 id="-">---<a class="headerlink" href="#-" title="Permanent link">&para;</a></h2>
-<p>title: Home
-hide:
-  # - navigation # 显示右
-  # - toc #显示左
-  - footer
-  - feedback
-comments: false</p>
-<hr />
-<h1 id="_2">主页<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h1>
+<h1 id="_1">主页<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <p><center><font  color= #02A6F2 size=6 class="ml3">欢迎各位成员！</font></center></p>
 <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+<script>
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: (el, i) => 150 * (i+1)
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
 
-<!-- ！时间 -->
-<!-- <div id="rcorners2" > -->
-<!-- <div id="rcorners1"> -->
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code>&lt;!-- &lt;i class=&quot;fa fa-calendar&quot; style=&quot;font-size:100&quot;&gt;&lt;/i&gt; --&gt;
-&lt;body&gt;
-  &lt;font color=&quot;#4351AF&quot;&gt;
-    &lt;p class=&quot;p1&quot;&gt;&lt;/p&gt;
-</code></pre></div></td></tr></table></div>
-<script defer>
-    //格式：2020年04月12日 10:20:00 星期二
-    function format(newDate) {
-        var day = newDate.getDay();
-        var y = newDate.getFullYear();
-        var m =
-            newDate.getMonth() + 1 < 10
-                ? "0" + (newDate.getMonth() + 1)
-                : newDate.getMonth() + 1;
-        var d =
-            newDate.getDate() < 10 ? "0" + newDate.getDate() : newDate.getDate();
-        var h =
-            newDate.getHours() < 10 ? "0" + newDate.getHours() : newDate.getHours();
-        var min =
-            newDate.getMinutes() < 10
-                ? "0" + newDate.getMinutes()
-                : newDate.getMinutes();
-        var s =
-            newDate.getSeconds() < 10
-                ? "0" + newDate.getSeconds()
-                : newDate.getSeconds();
-        var dict = {
-            1: "一",
-            2: "二",
-            3: "三",
-            4: "四",
-            5: "五",
-            6: "六",
-            0: "天",
-        };
-        //var week=["日","一","二","三","四","五","六"]
-        return (
-            y +
-            "年" +
-            m +
-            "月" +
-            d +
-            "日" +
-            " " +
-            h +
-            ":" +
-            min +
-            ":" +
-            s +
-            " 星期" +
-            dict[day]
-        );
-    }
-    var timerId = setInterval(function () {
-        var newDate = new Date();
-        var p1 = document.querySelector(".p1");
-        if (p1) {
-            p1.textContent = format(newDate);
-        }
-    }, 1000);
-</script>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code>  &lt;/font&gt;
-&lt;/body&gt;
-</code></pre></div></td></tr></table></div>
-<!-- </div> -->
-<p>开发中，站点变动较大，请谅解！</p>
-<!-- </div> -->
 
-<body>
-    <font color="#B9B9B9">
-    <p style="text-align: center; ">
-            <span>（未启用）本站已经运行</span>
-            <span id='box1'></span>
-</p>
-  <div id="box1"></div>
-  <script>
-    function timingTime(){
-      let start = '2022-10-20 00:00:00'
-      let startTime = new Date(start).getTime()
-      let currentTime = new Date().getTime()
-      let difference = currentTime - startTime
-      let m =  Math.floor(difference / (1000))
-      let mm = m % 60  // 秒
-      let f = Math.floor(m / 60)
-      let ff = f % 60 // 分钟
-      let s = Math.floor(f/ 60) // 小时
-      let ss = s % 24
-      let day = Math.floor(s  / 24 ) // 天数
-      return day + "天" + ss + "时" + ff + "分" + mm +'秒'
-    }
-    setInterval(()=>{
-      document.getElementById('box1').innerHTML = timingTime()
-    },1000)
-  </script>
-  </font>
-<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+<div style="text-align:center;"> <h1 style="color: red"><b>请认真阅读完以下重点内容！</b></h1></div>
+
+1. **注册规则在2.1节！**
+2. **此社区不对所有成年人开放，请勿在校内大幅度宣传！（懂得都懂）**
+3. **本文部分图片由于功能变动与社区实际情况有出入，请以实际社区操作为准！**
 
 
 
@@ -1390,6 +1206,10 @@ comments: false</p>
 
 
 
+  
+    
+  
+
 
 
                 
@@ -1417,10 +1237,12 @@ comments: false</p>
   
     
       
+        
+      
       <nav
         class="md-footer__inner md-grid"
         aria-label="页脚"
-        
+        hidden
       >
 
         <!-- Link to previous page -->
@@ -1485,7 +1307,7 @@ comments: false</p>
     </div>
   
   
-   文档版本：2.5│正式修订日期：2024年4月27日<p>\n当前时间:</p> <p class="p1"></p>
+   文档版本：2.5│正式修订日期：2024年4月27日<br>当前时间: <p class="p1"></p>
    
    <script defer>
     //格式：2020年04月12日 10:20:00 星期二
@@ -1543,12 +1365,12 @@ comments: false</p>
         }
     }, 1000);
 </script>
-
+<br>
    <p>
-            <span>\n本站已经运行</span>
-            <span id='box1'></span>
+            <span>本站已经运行</span>
+            <span class='box1'></span>
 </p>
-  <div id="box1"></div>
+  <div class="box1"></div>
   <script>
     function timingTime(){
       let start = '2024-05-01 00:00:00'
@@ -1565,7 +1387,7 @@ comments: false</p>
       return day + "天" + ss + "时" + ff + "分" + mm +'秒'
     }
     setInterval(()=>{
-      document.getElementById('box1').innerHTML = timingTime()
+      document.getElementByClass('box1').innerHTML = timingTime()
     },1000)
   </script>
 
@@ -1627,8 +1449,6 @@ comments: false</p>
     
       <script src="assets/javascripts/bundle.dd8806f2.min.js"></script>
       
-        <script src="assets/javascripts/extra.js"></script>
-      
         <script src="assets/javascripts/bannerSlider.js"></script>
       
         <script src="assets/javascripts/mathjax.js"></script>
@@ -1642,5 +1462,5 @@ comments: false</p>
     
     <script src="assets/javascripts/custom.9458f965.min.js"></script>
   
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
