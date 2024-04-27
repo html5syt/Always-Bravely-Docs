@@ -207,7 +207,7 @@ markdown_extensions:
 
   
 extra_javascript:
-  - assets/javascripts/extra.js 
+  # - assets/javascripts/extra.js 
   - assets/javascripts/bannerSlider.js
   - assets/javascripts/mathjax.js
   - assets/javascripts/iconsearch.js
