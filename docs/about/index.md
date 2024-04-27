@@ -11,7 +11,7 @@
 ## 1.3 分区&用户组
 
 ### 1.3.1 分区
-目前分为3大板块，分别是：
+目前分为4大板块，分别是：
 
 <div class="grid cards" markdown>
 
@@ -62,10 +62,10 @@
 
 **901～904组领取链接：（可领取多个，后续可能会加入验证）**
 
-1. [901班](/get-role/fvjCu3tsDdJLUcJ2)
-2. [902班](/get-role/In8NqOtKqFNTpXyB)
-3. [903班](/get-role/pKmGrZWrgfetItow)
-4. [904班](/get-role/xPBOpfnl0TOdlHmZ)
+1. [901班](https://www.bravely.pp.ua/get-role/fvjCu3tsDdJLUcJ2)
+2. [902班](https://www.bravely.pp.ua/get-role/In8NqOtKqFNTpXyB)
+3. [903班](https://www.bravely.pp.ua/get-role/pKmGrZWrgfetItow)
+4. [904班](https://www.bravely.pp.ua/get-role/xPBOpfnl0TOdlHmZ)
 
 ## 1.4 社区发展目标
 
@@ -73,7 +73,7 @@
 
 ## 1.5 社区费用一览&捐助计划（未开放）
 
-相信大家也看到了，社区目前访问速度有时会特别的慢，这都是因为我的资金不足而无法使用过多的付费服务。这是目前社区使用的所有服务项目：
+相信大家也看到了，社区目前访问速度有时会特别的慢/无法访问，这都是因为我的资金不足而无法使用过多的付费服务。这是目前社区使用的所有服务项目：
 
 1. bravely.pp.ua域名：10元1个，续期免费。
 
