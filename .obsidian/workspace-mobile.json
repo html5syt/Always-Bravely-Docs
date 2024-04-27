@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/about/index.md",
+                "file": "docs/basic/2.7.第三方登录.md",
                 "mode": "source",
                 "source": true
               }
@@ -91,8 +91,7 @@
           "state": {}
         }
       }
-    ],
-    "currentTab": 0
+    ]
   },
   "right": {
     "id": "eff6dfd495650315",
@@ -104,7 +103,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/about/index.md",
+            "file": "docs/basic/2.7.第三方登录.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "byCreatedTimeReverse",
@@ -121,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/about/index.md",
+            "file": "docs/basic/2.7.第三方登录.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -133,7 +132,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/about/index.md"
+            "file": "docs/basic/2.7.第三方登录.md"
           }
         }
       },
@@ -164,9 +163,9 @@
   },
   "active": "890b76675b7f2fc3",
   "lastOpenFiles": [
+    "docs/about/index.md",
     "docs/basic/2.7.第三方登录.md",
     "docs/basic/index.md",
-    "docs/about/index.md",
     "docs/basic/2.1.注册&登录.md",
     "docs/basic/2.2.主界面.md",
     "未命名",
