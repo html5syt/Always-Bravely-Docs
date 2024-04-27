@@ -22,14 +22,14 @@ comments: false
 ---
 # 主页
 
-<center><font  color= #02A6F2 size=6 class="ml3">“循此苦旅，以达星辰”</font></center>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<center><font  color= #02A6F2 size=6 class="ml3">欢迎各位成员！</font></center>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
 
 
 
 <!-- ！时间 -->
-<div id="rcorners2" >
-  <div id="rcorners1">
+<!-- <div id="rcorners2" > -->
+  <!-- <div id="rcorners1"> -->
     <!-- <i class="fa fa-calendar" style="font-size:100"></i> -->
     <body>
       <font color="#4351AF">
@@ -92,9 +92,9 @@ comments: false
 </script>
       </font>
     </body>
-  </div>
+  <!-- </div> -->
   开发中，站点变动较大，请谅解！
-</div> 
+<!-- </div> --> 
 
 
 
@@ -130,21 +130,4 @@ comments: false
 
 
 
-
-<div class="mdx-iconsearch" data-mdx-component="iconsearch">
-  <input
-    class="md-input md-input--stretch mdx-iconsearch__input"
-    placeholder="Search the icon and emoji database"
-    data-mdx-component="iconsearch-query"
-  />
-  <div class="mdx-iconsearch-result" data-mdx-component="iconsearch-result">
-    <div class="mdx-iconsearch-result__meta"></div>
-    <ol class="mdx-iconsearch-result__list"></ol>
-  </div>
-</div>
-<small>
-  :octicons-light-bulb-16:
-  **Tip:** Enter some keywords to find icons and emojis and click on the
-  shortcode to copy it to your clipboard.
-</small>
 

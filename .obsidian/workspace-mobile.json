@@ -162,8 +162,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "890b76675b7f2fc3",
+  "active": "99f1268c8e8bdb2f",
   "lastOpenFiles": [
+    "docs/info/iconsearch.md",
+    "docs/info/4.2.转存表情包.md",
+    "docs/info/4.1.dns解析流程图（暂未完成）.md",
+    "docs/info",
     "d/88-zhan-dian-wen-ti-fan-kui.md",
     "docs/end.md",
     "d",
@@ -191,7 +195,6 @@
     "10856822.tmp",
     "docs/assets/fa-light-300.woff2",
     "docs/assets/fa-light-300.woff",
-    "docs/assets/fa-light-300.ttf",
     "docs/information/4.2.转存表情包.md",
     "docs/information/4.1.dns解析流程图（暂未完成）.md",
     "docs/advanced/advanced.md",
@@ -202,9 +205,6 @@
     "docs/images/graduate-cap.png",
     "docs/images/graduate-cap.48x48.png",
     "docs/images/graduate-cap.192x192.png",
-    "docs/hosting-and-deployment/netlify.md",
-    "docs/hosting-and-deployment/gitlab-pages.md",
-    "docs/hosting-and-deployment/combinations.md",
     "docs_sample/images/material.png",
     "docs_sample/images/graduate-cap.96x96.png",
     "docs_sample/images/graduate-cap.png",

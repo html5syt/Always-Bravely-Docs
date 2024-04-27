@@ -21,10 +21,10 @@ nav:
       - "3.3 将社区安装为应用（PWA）": "advanced/3.3.pwa.md"
 
   - "4. 实用工具&技术信息":
-      - "4.1 DNS解析流程图（暂未完成）": "information/4.1.dns解析流程图（暂未完成）.md"
-      - "4.2 从微信里转存自定义表情包": "information/4.2.转存表情包.md"
+      - "4.1 DNS解析流程图（暂未完成）": "info/4.1.dns解析流程图（暂未完成）.md"
+      - "4.2 从微信里转存自定义表情包": "info/4.2.转存表情包.md"
       - "社区运行状态": "https://stats.uptimerobot.com/ZOuWPrYNjt"
-      
+      - "图标库搜索": "info/iconsearch.md"
       - "[管理员]Microsoft Clarity 社区统计": "https://clarity.microsoft.com/projects/view/krvl9qsy2g/dashboard"
       
   - "最后←": "end.md"
