@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/basic/2.1.注册&登录.md",
+                "file": "docs/basic/2.7.第三方登录.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/basic/2.1.注册&登录.md",
+            "file": "docs/basic/2.7.第三方登录.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "byCreatedTimeReverse",
@@ -121,7 +121,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/basic/2.1.注册&登录.md",
+            "file": "docs/basic/2.7.第三方登录.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -133,7 +133,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/basic/2.1.注册&登录.md"
+            "file": "docs/basic/2.7.第三方登录.md"
           }
         }
       },
@@ -172,8 +172,8 @@
   },
   "active": "890b76675b7f2fc3",
   "lastOpenFiles": [
-    "docs/basic/index.md",
     "docs/basic/2.1.注册&登录.md",
+    "docs/basic/index.md",
     "docs/about/社区准则.md",
     "docs/basic/2.7.第三方登录.md",
     "docs/index.md",
