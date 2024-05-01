@@ -223,8 +223,8 @@ extra_css:
   - assets/css/extra.css
   - assets/css/customize.css  #按钮圆角化
   - assets/css/bannerSlider.css
-  # - https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.7.0/style.css  #字体 
-  - assets/font2/font.css #YRDZST
+  - https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.7.0/style.css  #字体 
+  # - assets/font2/font.css #YRDZST
   
 
 watch:
