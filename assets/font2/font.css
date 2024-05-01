@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'YRDZST';
+    src: local('YRDZST-Bold'),
+        url('YRDZST-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YRDZST';
+    src: local('YRDZST-Heavy'),
+        url('YRDZST-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YRDZST';
+    src: local('YRDZST-Extralight'),
+        url('YRDZST-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YRDZST';
+    src: local('YRDZST-Light'),
+        url('YRDZST-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YRDZST';
+    src: local('YRDZST-Medium'),
+        url('YRDZST-Medium.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YRDZST';
+    src: local('YRDZST-Regular'),
+        url('YRDZST-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YRDZST';
+    src: local('YRDZST-Semibold'),
+        url('YRDZST-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
