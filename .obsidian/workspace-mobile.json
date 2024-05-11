@@ -170,11 +170,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "890b76675b7f2fc3",
+  "active": "99f1268c8e8bdb2f",
   "lastOpenFiles": [
+    "docs/advanced/3.4.markdown-bbcode.md",
+    "docs/advanced/3.3.pwa.md",
     "docs/basic/index.md",
     "docs/basic/2.7.第三方登录.md",
-    "docs/advanced/3.4.markdown-bbcode.md",
     "docs/index.md",
     "docs/about/index.md",
     "docs/advanced/index.md",
@@ -193,7 +194,6 @@
     "docs/assets/javascripts/iconsearch_index.json",
     "docs/assets/javascripts/iconsearch.js",
     "docs/custom/partials/copyright.html",
-    "docs/advanced/3.3.pwa.md",
     "docs/advanced/3.2.文件照片上传.md",
     "docs/advanced/3.1.私密主题.md",
     "docs/basic/2.2.主界面.md",
