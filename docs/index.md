@@ -9,14 +9,15 @@ comments: false
 ---
 # 主页
 
-<script src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
-
+<script src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+<center>
 <div id="typed-strings">
   <p style="color:#02A6F2;font-size:1.8em">这一次，不仅是你和我，我想真正地把大家连接起来。</p>
   <p style="color:#02A6F2;font-size:1.2em">This time, it’s not merely about you and me; I aspire to forge genuine connections among everyone.</p>
     <p style="color:#02A6F2;font-size:2em">新的旅途，即将开始。</p>
       <p style="color:#02A6F2;font-size:1.4em">A new voyage beckons, the journey unfolds.</p>
 </div>
+</center>
 <span id="typed"></span>
 <script>
   var typed = new Typed('#typed', {
@@ -40,6 +41,12 @@ comments: false
 	含有最简单的注册方法与规定，十分重要！！！
 	
     [:octicons-arrow-right-24: 转到2.1 注册&登录](/basic/2.1.%E6%B3%A8%E5%86%8C%26%E7%99%BB%E5%BD%95.html)
+
+-   :material-newspaper-variant:{ .lg .middle } __站长文章__
+
+    ---
+    《做好一件事，有多难？》
+    [:octicons-arrow-right-24: 点击查看](https://mp.weixin.qq.com/s/KmGX-9a1oGl3i-xju3XYMw)
 
 -   :dizzy_face:{ .lg .middle } __注意__
 
