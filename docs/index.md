@@ -10,29 +10,24 @@ comments: false
 # 主页
 
 <script src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
-<center>
-      <div class="type-wrap">
-        <div id="typed-strings">
-          <span style="color:#02A6F2;font-size:1.2em;">这一次，不仅是你和我，我想真正地把大家连接起来。</span>
-          <span style="color:#02A6F2;font-size:1.2em;">This time, it’s not merely about you and me; I aspire to forge genuine connections among everyone.</span>
-          <span style="color:#02A6F2;font-size:2em;">新的旅途，即将开始。</span>
-          <span style="color:#02A6F2;font-size:1.4em;">A new voyage beckons, the journey unfolds.</span>
-        </div>
-        <span id="typed"></span>
-      </div>
-      </center>
+
+<div id="typed-strings">
+  <p style="color:#02A6F2;font-size:1.8em">这一次，不仅是你和我，我想真正地把大家连接起来。</p>
+  <p style="color:#02A6F2;font-size:1.2em">This time, it’s not merely about you and me; I aspire to forge genuine connections among everyone.</p>
+    <p style="color:#02A6F2;font-size:2em">新的旅途，即将开始。</p>
+      <p style="color:#02A6F2;font-size:1.4em">A new voyage beckons, the journey unfolds.</p>
+</div>
+<span id="typed"></span>
 <script>
-document.addEventListener('DOMContentLoaded', function () {
   var typed = new Typed('#typed', {
-    stringsElement: '#typed-strings',
-    typeSpeed: 20,
+    stringsElement: '#typed-strings'
+        typeSpeed: 20,
     backSpeed: 20,
     startDelay: 100,
     loop: true,
     loopCount: Infinity,
   });
 </script>
-
 ---
 
 <center><font  color= "red" size=4>以下为必读内容！</font></center>
