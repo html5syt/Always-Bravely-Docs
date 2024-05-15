@@ -31,9 +31,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/advanced/3.4.markdown-bbcode.md",
+                "file": "docs/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -104,7 +104,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/advanced/3.4.markdown-bbcode.md",
+            "file": "docs/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "byCreatedTimeReverse",
@@ -121,7 +121,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/advanced/3.4.markdown-bbcode.md",
+            "file": "docs/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -133,7 +133,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/advanced/3.4.markdown-bbcode.md"
+            "file": "docs/index.md"
           }
         }
       },
@@ -170,11 +170,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99f1268c8e8bdb2f",
+  "active": "890b76675b7f2fc3",
   "lastOpenFiles": [
+    "docs/advanced/3.4.markdown-bbcode.md",
     "docs/index.md",
     "docs/index.md.html",
-    "docs/advanced/3.4.markdown-bbcode.md",
     "docs/advanced/3.3.pwa.md",
     "docs/basic/index.md",
     "docs/basic/2.7.第三方登录.md",

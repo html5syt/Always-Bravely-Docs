@@ -15,7 +15,8 @@ return function(){function t(t,s){e.load(this,s,t),this.begin()}var s=t.prototyp
 <center>
 <div id="typed-strings">
   <p style="color:#02A6F2;font-size:1.8em">这一次，不仅是你和我，我想真正地把大家连接起来。</p>
-  <p style="color:#02A6F2;font-size:1.2em">This time, it’s not merely about you and me; I aspire to forge genuine connections among everyone.</p>
+  <p style="color:#02A6F2;font-size:1.4em">Connect Us.</p>
+    <p style="color:#02A6F2;font-size:1.4em">And You ♥</p>
     <p style="color:#02A6F2;font-size:2em">新的旅途，即将开始。</p>
       <p style="color:#02A6F2;font-size:1.4em">A new voyage beckons, the journey unfolds.</p>
 </div>
