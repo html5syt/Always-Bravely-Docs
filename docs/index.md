@@ -14,6 +14,7 @@ return function(){function t(t,s){e.load(this,s,t),this.begin()}var s=t.prototyp
 //# sourceMappingURL=typed.umd.js.map</script>
 <center>
 <div id="typed-strings">
+  <p style="color:#02A6F2;font-size:1.8em">🎉2024/6/23 17:50 中考结束 正式开站 不见不散🎉</p>
   <p style="color:#02A6F2;font-size:1.8em">这一次，不仅是你和我，我想真正地把大家连接起来。</p>
   <p style="color:#02A6F2;font-size:1.4em">Connect Us.</p>
     <p style="color:#02A6F2;font-size:1.4em">And You ♥</p>
@@ -45,23 +46,19 @@ return function(){function t(t,s){e.load(this,s,t),this.begin()}var s=t.prototyp
 	
     [:octicons-arrow-right-24: 转到2.1 注册&登录](/basic/2.1.%E6%B3%A8%E5%86%8C%26%E7%99%BB%E5%BD%95.html)
 
--   :material-newspaper-variant:{ .lg .middle } __站长文章__
-
-    ---
-    《做好一件事，有多难？》
-    
-    [:octicons-arrow-right-24: 点击查看](https://mp.weixin.qq.com/s/KmGX-9a1oGl3i-xju3XYMw)
 
 -   :dizzy_face:{ .lg .middle } __注意__
 
     ---
-	中考前请不要在外部大幅度宣传本社区！这**事关社区的生死存亡**！
+	我们已开通爱发电捐款渠道，您可以在这里捐款以支持我们，感谢您的帮助。
+	
+    [:octicons-arrow-right-24: 转到爱发电主页](https://afdian.net/a/always-bravely)
 
 -   :material-lightbulb-on:{ .lg .middle } __Tips__
 
     ---
 
-    文档目录中所有右侧带“:material-chevron-right:”的栏目的左侧文字均可点击，里面也有内容。
+    文档目录中所有右侧带“:material-chevron-right:”符号的栏目的 **左侧文字** 均可点击，里面也有内容。
 
 -   :material-update:{ .lg .middle } __文档更新__
 
@@ -74,21 +71,19 @@ return function(){function t(t,s){e.load(this,s,t),this.begin()}var s=t.prototyp
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-icons:{ .lg .middle } __图标/表情搜索__
-
-    ---
-
-    这里有许多表情供你探索。另外，社区内也自带类似的表情搜索功能，只需要在发帖时输入一个英文冒号即可。
-
-    [:octicons-arrow-right-24: 转到表情搜索](/info/iconsearch.html)
-
 -   :octicons-smiley-24:{ .lg .middle } __从微信里转存自定义表情包__
 
 	---
 	想要保存微信里的自定义表情包以在社区内使用？这里有办法！
 
 	[:octicons-arrow-right-24: 打开办法](/info/4.2.%E8%BD%AC%E5%AD%98%E8%A1%A8%E6%83%85%E5%8C%85.html)
-	
+
+-   :material-newspaper-variant:{ .lg .middle } __微信公众号维护相关文章聚合页__
+
+    ---
+    
+    [:octicons-arrow-right-24: 点击查看](http://mp.weixin.qq.com/mp/homepage?__biz=MzkyODYyODQyMQ==&hid=1&sn=99590b9945ba8299a67e85e7979199d6&scene=18#wechat_redirect)
+
 </div>
 
 
