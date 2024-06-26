@@ -14,7 +14,6 @@ return function(){function t(t,s){e.load(this,s,t),this.begin()}var s=t.prototyp
 //# sourceMappingURL=typed.umd.js.map</script>
 <center>
 <div id="typed-strings">
-  <p style="color:#02A6F2;font-size:1.8em">🎉2024/6/23 17:50 中考结束 正式开站 不见不散🎉</p>
   <p style="color:#02A6F2;font-size:1.8em">这一次，不仅是你和我，我想真正地把大家连接起来。</p>
   <p style="color:#02A6F2;font-size:1.4em">Connect Us.</p>
     <p style="color:#02A6F2;font-size:1.4em">And You ♥</p>
@@ -78,6 +77,12 @@ return function(){function t(t,s){e.load(this,s,t),this.begin()}var s=t.prototyp
 
 	[:octicons-arrow-right-24: 打开办法](/info/4.2.%E8%BD%AC%E5%AD%98%E8%A1%A8%E6%83%85%E5%8C%85.html)
 
+-   :material-newspaper-variant:{ .lg .middle } __# 『新的旅途，即将开始』—Always Bravely社区等你来！__
+
+    ---
+    
+    [:octicons-arrow-right-24: 点击查看](https://mp.weixin.qq.com/s?__biz=MzkyODYyODQyMQ==&mid=2247483795&idx=1&sn=d0b02258859472f6d4c7111253c41713&chksm=c214aa39f563232f5a0dbeed7a2cb7a2674975775b5eb5297b9e1cfb633a74aa049731392a50&token=208127206&lang=zh_CN#rd)
+    
 -   :material-newspaper-variant:{ .lg .middle } __微信公众号维护相关文章聚合页__
 
     ---

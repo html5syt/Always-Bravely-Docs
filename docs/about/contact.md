@@ -32,6 +32,12 @@
 
     ---
 
-    [:octicons-arrow-right-24: 点击添加站长QQ](tencent://message/?uin=1132089315&Site=&Menu=yes)
+    QQ号：1132089315
+
+-   :simple-tencentqq:{ .lg .middle } __QQ反馈群__
+
+    ---
+
+	群号：895228208
 
 </div>
